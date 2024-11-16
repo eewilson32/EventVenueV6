@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation, Link, useParams} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation, Link} from 'react-router-dom';
 import Home from './pages/Home';
 import Event from './pages/Event';
 import Tickets from './pages/Tickets'
@@ -36,8 +36,8 @@ function AppContent({ navigationHistory, setNavigationHistory }) {
                 return [HOME_PATH];
             }
 
-            // Only add newPage if it does not already exist in the history
-            if (!prevHistory.includes(newPage)) {
+            // Only add newPage if it does not already exist in the history or if it is from the "Find Events" dropdown on the Header
+            if (!prevHistory.includes(newPage) && !newPage.startsWith('/events/')) {
                 return [...prevHistory, newPage];
             }
             return prevHistory;

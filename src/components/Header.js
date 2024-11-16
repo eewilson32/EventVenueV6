@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles.css';
-import { Link, useLocation} from 'react-router-dom'; // If you're using react-router for navigation
+import { Link, useLocation } from 'react-router-dom'; // If you're using react-router for navigation
 
-function Header({navigationHistory}) {
+function Header({ navigationHistory }) {
 
 
   return (
@@ -10,7 +10,7 @@ function Header({navigationHistory}) {
       <nav>
         <ul className="menu">
           <li><Link to="/EventVenueV6">Home</Link></li>
-          
+
           {/* Dropdown for "Find Events" */}
           <li className="dropdown">
             <a href="#">Find Events</a>
@@ -33,7 +33,7 @@ function Header({navigationHistory}) {
               <li><a href="#">Directions</a></li>
             </ul>
           </li>
-          
+
           {/* Dropdown for "Account" */}
           <li className="dropdown">
             <a href="#">Account</a>
@@ -46,8 +46,8 @@ function Header({navigationHistory}) {
           </li>
         </ul>
 
-        
-        
+
+
       </nav>
 
     </header>
