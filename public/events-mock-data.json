@@ -3,7 +3,7 @@
     {
       "eventName": "Beethoven Symphony No. 9",
       "category": "Concert",
-      "labels": [ "Drama", "Recital" ],
+      "labels": [ "Recital" ],
       "description": "Join us for an unforgettable evening as we present Beethoven's Symphony No. 9, one of the greatest masterpieces in classical music history! Let the sweeping melodies and triumphant Ode to Joy inspire your soul as a world-class orchestra and choir bring this iconic symphony to life. Feel the passion, the drama, and the celebration of the human spirit that has captivated audiences for centuries.",
       "eventDetails": [
         {
@@ -115,7 +115,7 @@
     {
       "eventName": "John Williams in Concert",
       "category": "Concert",
-      "labels": [ "Recital", "Adventure", "Spectacle (Featured)" ],
+      "labels": [ "Recital", "Spectacle (Featured)" ],
       "description": "Prepare to be transported to the worlds of epic adventure, heart-pounding action, and magical wonder as the music of John Williams comes to life in a thrilling concert experience. From the soaring themes of Star Wars, the suspenseful notes of Jaws, the wonder of E.T., and the heroic fanfare of Indiana Jones, this concert brings together some of the most unforgettable scores in cinematic history, all composed by the legendary John Williams.  Performed by a world-class orchestra, these iconic pieces will make you relive the emotional moments of your favorite films, from the awe-inspiring to the exhilarating. Whether you're a film buff, a music lover, or a fan of Williams' masterpieces, this is a night of symphonic magic you can't miss! Join us for a once-in-a-lifetime concert! Feel the power of music that has defined generations and captured the imaginations of millions.",
       "eventDetails": [
         {
@@ -143,7 +143,7 @@
     {
       "eventName": "The Magic Flute",
       "category": "Opera",
-      "labels": [ "Adventure", "Romance", "Family Friendly" ],
+      "labels": [ "Adventure", "Romance", "Family Friendly", "Comedy" ],
       "description": "Step into the magical world of Mozart’s The Magic Flute, a fantastical opera filled with enchanting music, love, and adventure. Follow the journey of Prince Tamino as he embarks on a heroic quest to rescue Princess Pamina, armed with only a magical flute and the help of his comedic sidekick, Papageno. Along the way, they must face mystical trials, wicked foes, and uncover the true nature of wisdom and virtue. With its brilliant arias, including the famous Queen of the Night’s show-stopping performance, The Magic Flute blends light-hearted comedy, deep symbolism, and Mozart’s unparalleled musical genius. From its mystical settings to the triumph of love and courage, this opera has captivated audiences for over two centuries. Join us for an unforgettable evening of opera magic, where music and storytelling come together in perfect harmony!",
       "eventDetails": [
         {

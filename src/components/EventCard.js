@@ -49,7 +49,7 @@ function EventCard({ event }) {
                     </time>
                 </section>
                 <section className="card-cont">
-                    <small>{event.category + " ~ "}</small>
+                    <small>{event.category}</small>
                     <h3>{truncateDescription(event.eventName, 30)}</h3>
                     <p>{truncateDescription(event.description, 85)}</p>
                     <div className="even-date">
