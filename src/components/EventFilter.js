@@ -242,8 +242,8 @@ function EventFilter({ onFilterChange, maxEventPrice, onClearFilter }) {
                         />
                     </div>
                     <div className="filter-buttons">
-                        <button onClick={() => handleFilterChange()}>Search</button>
                         <button onClick={() => handleClearFilters()}>Clear</button>
+                        <button onClick={() => handleFilterChange()}>Search</button>
                     </div>
                 </div>
             </div>
